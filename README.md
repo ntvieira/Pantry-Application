@@ -3,8 +3,7 @@ It was developed in Android Studio and uses Google Firebase (NoSQL) as its backe
 Our goal was to increase the user's ability to keep track of what is in their inventory. <br/>
 <br/>You can run the app on an android phone by downloading our APK in the release section
 <br/><br/><b>Getting started:</b>  <br/>
-<br/>If you don't have an android, you can download android studio off the internet
-If you are testing Google login or Facebook login you must run it from the APK.  This has to do with the SHA-1 fingerprints for compiling the app. <br/> <br/>
+<br/>If you don't have an android, you can download android studio off the internet. If you are testing Google login or Facebook login you must run it from the APK.  This has to do with the SHA-1 fingerprints for compiling the app. <br/> <br/>
 ![pic2](https://user-images.githubusercontent.com/21372679/56394437-6592f880-6205-11e9-988f-ff8cbc98298a.png)
 
 In the upper right corner, click the hammer button to build the project<br/> <br/>
