@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="#e8f7ec">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="12dp"
+        >
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890"
+            android:hint="Enter Grocery Item"></EditText>
+
+        <EditText
+            android:id="@+id/editTextQ"
+            android:inputType="number"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:hint="Quantity"></EditText>
+
+        <Button
+            android:id="@+id/manuallyEnterItem"
+            android:hint="Add"
+            android:textColor="@color/browser_actions_bg_grey"
+            android:textColorHint="@android:color/background_light"
+            android:layout_width="25dp"
+            android:layout_height="35dp"
+            android:background="@android:color/transparent"
+            android:layout_weight="1"
+            >
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        >
+
+        <Button
+            android:id="@+id/sort_by_name"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="141dp"
+            android:layout_height="55dp"
+            android:textColor="@color/browser_actions_bg_grey"
+            android:textColorHint="@android:color/background_light"
+            android:layout_weight="1"
+            android:hint="Sort by name"></Button>
+
+        <Button
+            android:id="@+id/sort_by_quantity"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="141dp"
+            android:textColor="@color/browser_actions_bg_grey"
+            android:textColorHint="@android:color/background_light"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:hint="Sort by quantity">
+
+        </Button>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:ems="10"
+            android:hint="Date Added"
+            android:inputType="textPersonName"
+            android:focusableInTouchMode="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.555"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+    <com.baoyz.swipemenulistview.SwipeMenuListView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/invList">
+    </com.baoyz.swipemenulistview.SwipeMenuListView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="#e8f7ec">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="12dp"
+        >
+
+        <EditText
+            android:id="@+id/text_input"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:hint="Enter Grocery Item"></EditText>
+
+        <EditText
+            android:id="@+id/quantity_input"
+            android:inputType="number"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:hint="Quantity"></EditText>
+
+        <Button
+            android:id="@+id/add_item"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="25dp"
+            android:layout_height="35dp"
+
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:textColor="@color/browser_actions_bg_grey"
+            android:textColorHint="@android:color/background_light"
+            android:hint="Add"></Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        >
+
+        <Button
+            android:id="@+id/sort_by_name"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="141dp"
+            android:layout_height="55dp"
+            android:textColor="@color/browser_actions_bg_grey"
+            android:textColorHint="@android:color/background_light"
+            android:layout_weight="1"
+            android:hint="Sort by name"></Button>
+
+        <Button
+            android:id="@+id/sort_by_quantity"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="141dp"
+            android:layout_height="55dp"
+            android:textColor="@color/browser_actions_bg_grey"
+            android:textColorHint="@android:color/background_light"
+
+            android:layout_weight="1"
+            android:hint="Sort by quantity">
+
+        </Button>
+
+        <Button
+            android:id="@+id/buy_all"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="141dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:textColor="@color/browser_actions_bg_grey"
+            android:textColorHint="@android:color/background_light"
+            android:hint="Buy All">
+
+        </Button>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/grocery_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

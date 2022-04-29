@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#e8f7ec">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        >
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/editText5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="10dp"
+                android:text="Welcome to PantryApp!\n\nPantryApp puts the ease back into grocery shopping again by keeping a running list of the items you need to pick up at your next shopping trip and lets you see what items you have at any given time for dinner that night.\n\n1.). Inventory lets you see what you already own and intuitively adds the date you bought it or you can select your own so you know your items are always their freshest.  Swipe left on an item to edit that item.\n\n2.)  The grocery list page allows you to add items to your shopping list throughout the week and lets you sort the list alphabetically to find your favorite items or by quantity so you can see what you need ASAP. Swipe left on an item to edit that item\n\n3.). The barcode scanner allows you to easily scan items you already have into your grocery list to restock or add to your pantry for the first time. If the item isn't in our database, it prompts you to add it before you are able to add it your pantry inventory.\n\nWe hope PantryApp takes some of the hassle out of grocery shopping and meal planning throughout the week.\n\nEnjoy!\n\n"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

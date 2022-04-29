@@ -1,0 +1,101 @@
+{
+  "project_info": {
+    "project_number": "181175272274",
+    "firebase_url": "https://pantryapp-c56a1.firebaseio.com",
+    "project_id": "pantryapp-c56a1",
+    "storage_bucket": "pantryapp-c56a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181175272274:android:b67c4712b108d49b",
+        "android_client_info": {
+          "package_name": "com.example.babin.pantry_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181175272274-vqej5pt7o6irlcu81ilcvjl7lt08flrf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.babin.pantry_app",
+            "certificate_hash": "dfbc270cb4060a91706a35049f4a95e1c304e332"
+          }
+        },
+        {
+          "client_id": "181175272274-okkq4pta8f2be985lq4uo5v5a0t6ajln.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.babin.pantry_app",
+            "certificate_hash": "ebc27a3af66c475ef827f0efe74fbcb4284ccdb4"
+          }
+        },
+        {
+          "client_id": "181175272274-f47r1uekoqmtrolavrp36tst9tivq01k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.babin.pantry_app",
+            "certificate_hash": "ca64fdf6ddc69fe9b0aa36a13f3b9be9b183120b"
+          }
+        },
+        {
+          "client_id": "181175272274-rb9hr3r5vfd0ensnu55i86d8kpfhq47b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.babin.pantry_app",
+            "certificate_hash": "1a6c0af228196a9df51bf6a1156149c6288a2261"
+          }
+        },
+        {
+          "client_id": "181175272274-o3vct6014513g47ht4mc6elcco9gdul2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKGv1QLmU2o83yPyK9-X2FQzB-qj744B8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181175272274-o3vct6014513g47ht4mc6elcco9gdul2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181175272274:android:96cacf1be9cc4430",
+        "android_client_info": {
+          "package_name": "io.kamara.firebase.quickstart.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181175272274-o3vct6014513g47ht4mc6elcco9gdul2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKGv1QLmU2o83yPyK9-X2FQzB-qj744B8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181175272274-o3vct6014513g47ht4mc6elcco9gdul2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
